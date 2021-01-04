@@ -1,6 +1,7 @@
+#---------------->IMPORTS<-----------------
 import time
 from plyer import notification
-
+#--------------->NOTIFY<-------------
 if __name__ == "__main__":
     while True:
         notification.notify(
@@ -9,4 +10,4 @@ if __name__ == "__main__":
             app_icon = "G:\\Program files\\Python\\drink water notification\\water.ico",
             timeout=4
         )
-        time.sleep(60*60) 
+        time.sleep(60*60) # time delay between two notifications.
